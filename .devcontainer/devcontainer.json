@@ -6,6 +6,26 @@
     "containerEnv": {
         "SANDBOX_USER_ID": "1005"
     },
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:1": {
+            "installZsh": "true",
+            "username": "daytona",
+            "uid": "1000",
+            "gid": "1000",
+            "upgradePackages": "false"
+        },
+        "ghcr.io/devcontainers/features/docker-in-docker:2.7.1": {
+            "version": "24.0.7",
+            "moby": false,
+            "dockerDashComposeVersion": "v2"
+        },
+        "ghcr.io/devcontainers/features/go:1.1.0": {
+            "version": "1.19.3"
+        },
+        "ghcr.io/devcontainers/features/node:1.1.1": {
+            "version": "18.12.1"
+        }
+    },
     "forwardPorts": [
         33000
     ],
