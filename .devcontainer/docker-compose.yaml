@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    image: daytonaio/workspace-universal
+    image: ubuntu
     privileged: true
   odevin:
     image: jsrzic/openhands:latest
