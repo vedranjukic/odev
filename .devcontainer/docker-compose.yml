@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  app:
+    image: daytonaio/workspace-universal
+  odevin:
+    image: jsrzic/openhands:latest
+    ports:
+      - 33000:3000
+    environment:
+      - SANDBOX_USER_ID=1005
+      - WORKSPACE_MOUNT_PATH=/workspaces/project
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /workspaces/project:/opt/workspace_base

@@ -1,10 +1,13 @@
 {
     "name": "OpenDevin",
-	"image": "jsrzic/openhands:latest",
+	"dockerComposeFile": "docker-compose.yaml",
+    "service": "app",
+    "workspaceFolder": "/workspaces/project",
     "containerEnv": {
         "SANDBOX_USER_ID": "1005"
     },
     "forwardPorts": [
         3000
-    ]
+    ],
+    "remoteUser": "daytona"
 }
