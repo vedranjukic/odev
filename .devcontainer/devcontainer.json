@@ -1,0 +1,10 @@
+{
+    "name": "OpenDevin",
+	"image": "jsrzic/openhands:latest",
+    "containerEnv": {
+        "SANDBOX_USER_ID": "1005"
+    },
+    "forwardPorts": [
+        3000
+    ]
+}
