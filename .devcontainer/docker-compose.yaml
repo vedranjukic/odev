@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    image: ubuntu
+    image: ubuntu:22
     privileged: true
   odevin:
     image: jsrzic/openhands:latest
