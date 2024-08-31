@@ -7,7 +7,7 @@
         "SANDBOX_USER_ID": "1005"
     },
     "forwardPorts": [
-        3000
+        33000
     ],
     "remoteUser": "daytona"
 }
