@@ -26,8 +26,9 @@
             "version": "18.12.1"
         }
     },
+    "initializeCommand": "mkdir /tmp/workspaces/project -p",
     "forwardPorts": [
-        33000
+        "odevin:3000"
     ],
     "remoteUser": "daytona"
 }
