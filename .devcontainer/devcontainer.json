@@ -2,7 +2,7 @@
     "name": "OpenDevin",
 	"dockerComposeFile": "docker-compose.yaml",
     "service": "app",
-    "workspaceFolder": "/workspaces/project",
+    "workspaceFolder": "/workspace/project",
     "containerEnv": {
         "SANDBOX_USER_ID": "1005"
     },
@@ -26,7 +26,7 @@
             "version": "18.12.1"
         }
     },
-    "initializeCommand": "mkdir /tmp/workspaces/project -p",
+    "initializeCommand": "mkdir /workspace/project -p",
     "forwardPorts": [
         "odevin:3000"
     ],

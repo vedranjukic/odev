@@ -5,7 +5,7 @@ services:
     image: ubuntu:22.04
     command: tail -f /dev/null
     volumes:
-      - /tmp/workspaces/project:/workspaces/project
+      - /workspace/project:/workspaces/project
   odevin:
     image: jsrzic/openhands:latest
     environment:
@@ -16,4 +16,4 @@ services:
       LLM_MODEL: ${LLM_MODEL}
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /tmp/workspaces/project:/workspaces/project
+      - /workspace/project:/workspaces/project
