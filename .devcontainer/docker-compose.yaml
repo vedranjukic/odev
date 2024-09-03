@@ -10,7 +10,7 @@ services:
     image: jsrzic/openhands:latest
     environment:
       SANDBOX_USER_ID: 1005
-      WORKSPACE_MOUNT_PATH: /workspaces/project
+      WORKSPACE_BASE: /workspaces/project
       LLM_BASE_URL: ${LLM_BASE_URL}
       LLM_API_KEY: ${LLM_API_KEY}
       LLM_MODEL: ${LLM_MODEL}
