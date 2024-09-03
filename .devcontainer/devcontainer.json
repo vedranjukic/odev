@@ -2,7 +2,7 @@
     "name": "OpenDevin",
 	"dockerComposeFile": "docker-compose.yaml",
     "service": "app",
-    "workspaceFolder": "/workspace/project",
+    "workspaceFolder": "/workspaces/project",
     "containerEnv": {
         "SANDBOX_USER_ID": "1005"
     },
